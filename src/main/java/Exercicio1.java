@@ -1,14 +1,15 @@
-public class Teste {
-
+public class Exercicio1 {
     public static void main(String[] args) {
-        int numZumbis1 = 120;
-        int numZumbis2 = 240;
-        int numZumbis3 = 320;
-        int totalZumbis = numZumbis1 + numZumbis2 + numZumbis3;
+        // numero de zumbis mortos na partida
+        int partida1 = 130, partida2 = 240, partida3 = 320;
 
-        System.out.println("Total de Zumbis: " + totalZumbis );
-        System.out.println("Media de Zumbis mortos: " + totalZumbis/3);
+        // Numero total de zumbis mortos
+        int total = partida1 + partida2 + partida3;
+
+        // media de zumbis
+        int media = total/3;
+        System.out.println("total de zumbis mortos: " + total);
+        System.out.println("media de Zumbis mortos: " + media );
 
     }
-
 }
